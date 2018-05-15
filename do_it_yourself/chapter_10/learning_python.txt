@@ -1,0 +1,5 @@
+In Python you can create dictionaries.
+In Python you can edit files.
+In Python you can make video games.
+In Python you can write Object Oriented programs.
+In Python you can do things quickly.
