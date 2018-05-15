@@ -1,20 +1,8 @@
-active = True
+user_input = input("Enter 1st number: ")
 
-while active:
-
-    try:
-        x = int(input("Enter first number: "))
-
-    except ValueError:
-        print("Not a number!")
-        break
-
-    try:
-        y = int(input("Enter second number: "))
-    except ValueError:
-        print("Not a number!")
-        break
-
-    print(str(x + y))
-
-print("Good Bye!")
+try:
+    number_1 = int(user_input)
+except ValueError:
+    print(user_input + " is not a integer")
+else:
+    print(number_1)
