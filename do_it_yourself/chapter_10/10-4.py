@@ -9,4 +9,3 @@ with open(file_name, "a") as file_object:
             active = False
         else:
             file_object.write(new_name + "\n")
-    
